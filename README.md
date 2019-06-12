@@ -3,4 +3,10 @@ Calculate and plot travel time to health areas infected with Ebola from surround
 The plots produced with this code are displayed below:
 
 Travel time plot - capped at 12 hours
-![alt text](https://github.com/jdmorgan5/ebola-travel-time/Outputs/trav_time_plot.png)
+![alt text](Outputs/trav_time_plot.png)
+
+Rwanda - relative travel time
+![alt text](Outputs/rwanda_map.png)
+
+Uganda - relative travel time
+![alt text](Outputs/uganda_map.png)
