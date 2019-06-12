@@ -105,7 +105,7 @@ plot_rel_map <- function(infected_sf, access_raster, bg_adm0, lakes, co){
                       values = c('#F3E51E', '#44BE70', '#218C8D', '#3A538B', '#440357'),
                       labels = rev(c('80 - 100', '60 - 80' , '40 - 60','20 - 40' , '0 - 20'))) +
     scale_color_manual(name = NULL, values = c('Affected health\nareas' = 'black')) +
-    guides(fill = guide_legend( order = 1), color = guide_legend(order = 2)) +
+    guides(fill = guide_legend( order = 1), color = guide_legend(order = 2, override.aes = list(fill = NA))) +
     coord_sf(xlim = xlims, ylim = ylims, expand = FALSE) +
     geom_label(data = df_labels, aes(x=x, y = y, label = country), fill='grey', alpha = 0.4, fontface = 'bold', size = 3) +
     theme(axis.text = element_blank(),
