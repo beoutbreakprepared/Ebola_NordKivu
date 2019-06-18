@@ -8,14 +8,15 @@ and shared via their R package malariaAtlas https://cran.r-project.org/web/packa
 
 Case data comes from Situation Reports from the World Health Organization and Ministry of Health in the Democratic Republic of the Congo.
 
-Calculate and plot travel time to health areas infected with Ebola from surrounding area using publicly available data.
-The plots produced with this code are displayed below:
+_________________________________________________________________________________________________________________________________________
 
-Travel time plot - capped at 12 hours
+Travel time from districts reporting cases to areas in and around the Kivus, including neighbouring countries
 ![alt text](Outputs/trav_time_plot.png)
 
-Rwanda - relative travel time
+Travel time from districts reporting cases to locations in Rwanda, coloured by percentile rank
 ![alt text](Outputs/rwanda_map.png)
 
-Uganda - relative travel time
+Travel time from districts reporting cases to locations in Rwanda, coloured by percentile rank
 ![alt text](Outputs/uganda_map.png)
+
+Outputs were last updated on 30 May 2019 and are based upon Situation Report 42
