@@ -3,7 +3,7 @@
 # Infected health area data: WHO Situation Report #42  https://apps.who.int/iris/bitstream/handle/10665/324843/SITREP_EVD_DRC_20190521-eng.pdf?ua=1
 # Health area shapefile: https://www.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=916988872d694a9ebe244c7a195c6874
 # Population bias raster: https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-count-rev11/data-download
-# Friction surface raster: https://map.ox.ac.uk/ accessed via getRaster(surface = "A global friction surface enumerating land-based travel speed for a nominal year 2015")
+# Friction surface raster: https://map.ox.ac.uk/ accessed via getRaster(surface = "A global friction surface enumerating land-based travel speed for a nominal year 2015", extent = matrix(c(23.77, -3.37, 36.36 , 5.451)))
 # Background lakes shapefile: http://193.43.36.146/map?entryId=bd8def30-88fd-11da-a88f-000d939bc5d8
 
 # Read in necessary libraries
@@ -16,15 +16,30 @@ library(malariaAtlas)
 library(gdistance)
 library(seegSDM)
 library(viridis)
+library(readr)
 source('plot_funcs.R')
 
 # Read in data
-health_areas <- shapefile('health_areas_SR42.shp') #health area shapefile with binary present/absence variable for infection based on WHO SitRep 42 from May 21, 2019
-friction <- raster('friction.tif') #friction raster is already cropped to the extent we will plot it to
-pop_raster <- raster('pop_raster.tif')
+health_areas <- shapefile('Data/health_areas_SR42.shp') #health area shapefile with binary present/absence variable for infection based on WHO SitRep 42 from May 21, 2019
+uga_adm2 <- getShp(ISO = "UGA", admin_level = "admin1")
+kasese <- uga_adm2[which(uga_adm2@data$name_1 == 'Kasese'),]
+kasese@data$sr_46_new <- 1
 
-# Subset health areas to only those infected
-ha_infect <- health_areas[which(health_areas@data$sr_42_new == 1),]
+friction <- raster('Data/friction.tif') #getRaster(surface = "A global friction surface enumerating land-based travel speed for a nominal year 2015", extent = matrix(c(23.77, -3.37, 36.36 , 5.451)))
+pop_raster <- raster('Data/pop_raster.tif')
+lakes <- shapefile('Data/waterbodies_africa.shp')
+drc_hosp <- read_csv('Data/DRC_hospitals.csv', locale = readr::locale(encoding = "latin1"))
+rw_hosp <- read_csv('Data/Rwanda_hospitals.csv', locale = readr::locale(encoding = "latin1"))
+ug_hosp <- read_csv('Data/Uganda_hospitals.csv', locale = readr::locale(encoding = "latin1"))
+
+# Mask out lakes from friction and population rasters
+friction <- mask(friction, lakes, inverse = TRUE) 
+pop_raster <- mask(pop_raster, lakes, inverse = TRUE)
+
+# Subset health areas to only those infected (then include Ugandan admin2)
+ha_infect <- health_areas[which(health_areas@data$sr_46_new == 1),]
+ha_infect <- raster::union(ha_infect, kasese)
+
 
 # Sample infected health areas with population bias, if pop or area too small use spsample
 poly_samp <- data.frame()
@@ -67,7 +82,7 @@ values(access.raster) <- values(access.raster)/60
 # Plot access raster data
 adm0 <- getShp(ISO = c("UGA", "COD", "RWA", "BDI", "TZA"), admin_level = 'admin0')
 adm1 <- getShp(ISO = "COD", admin_level = "admin1")
-lakes <- read_sf('waterbodies_africa.shp')
+lakes <- st_as_sf(lakes)
 
 trav_time_plot <- plot_tt(infected_sf = ha_infect, access_raster = access.raster, bg_adm0 = adm0, bg_adm1 = adm1, lakes = lakes)
 trav_time_plot
@@ -77,5 +92,40 @@ rw_plot
 
 ug_plot <- plot_rel_map(infected_sf = ha_infect, access_raster = access.raster, bg_adm0 = adm0, lakes = lakes, co = 'UGA')
 ug_plot
+# To save plots use
+ggsave(trav_time_plot, filename = 'Outputs/Travel_time_map.png', width = 8, height = 8)
+ggsave(rw_plot, filename = 'Outputs/Rwanda_map.png', width = 8, height = 8)
+ggsave(ug_plot, filename = 'Outputs/Uganda_map.png', width = 8, height = 8)
 
-# To save plots use ggsave(plot, filename = 'plot.png', width = 8, height = 8)
+# For DRC, Rwanda and Uganda, create a list of hospital travel times
+# Rbind all country hospitals and correct names
+hospitals <- as.data.table(rbind(drc_hosp, ug_hosp, rw_hosp))
+names(hospitals)[which(names(hospitals) == 'Facility name')] <- 'Name'
+hospitals[, Name := sub(' H.*$', ' Hospital', Name)]
+
+# Extract travel times for each hospital and attach to parent df
+TT <- extract(access.raster, hospitals[,.(Longitude, Latitude)])
+hospitals <- cbind(hospitals, TT)
+names(hospitals)[ncol(hospitals)] <- 'Travel_Time'
+hospitals <- hospitals[!is.na(Travel_Time),]
+
+# Select hospitals with lowest travel times by country
+drc_hosp_tt <- hospitals[order(Travel_Time),][Country == 'Democratic Republic of the Congo',][1:20, .(Admin1, Name, Travel_Time, Longitude, Latitude)]
+rw_hosp_tt <- hospitals[order(Travel_Time),][Country == 'Rwanda',][1:20, .(Admin1, Name, Travel_Time, Longitude, Latitude)]
+ug_hosp_tt <- hospitals[order(Travel_Time),][Country == 'Uganda',][1:20, .(Admin1, Name, Travel_Time, Longitude, Latitude)]
+
+# Save to csv
+write.csv(hospitals, file = file('Outputs/hospital_tt.csv', encoding = 'UTF-8'))
+write.csv(drc_hosp_tt, file = file('Outputs/drc_hosp_tt.csv', encoding = 'UTF-8'))
+write.csv(rw_hosp_tt, file = file('Outputs/rw_hosp_tt.csv', encoding = 'UTF-8'))
+write.csv(ug_hosp_tt, file = file('Outputs/ug_hosp_tt.csv', encoding = 'UTF-8'))
+
+# Save subset of columns to table output
+drc_tab <- tableGrob(drc_hosp_tt[,.(District = Admin1, Name, `Travel Time (hours)` = round(Travel_Time, 2))], rows = NULL)
+rw_tab <- tableGrob(rw_hosp_tt[,.(District = Admin1, Name, `Travel Time (hours)` = round(Travel_Time, 2))], rows = NULL)
+ug_tab <- tableGrob(ug_hosp_tt[,.(District = Admin1, Name, `Travel Time (hours)` = round(Travel_Time, 2))], rows = NULL)
+
+ggsave(drc_tab, filename = 'Outputs/drc_hosp_tt_prettytab.png')
+ggsave(rw_tab, filename = 'Outputs/rw_hosp_tt_prettytab.png')
+ggsave(ug_tab, filename = 'Outputs/ug_hosp_tt_prettytab.png')
+
