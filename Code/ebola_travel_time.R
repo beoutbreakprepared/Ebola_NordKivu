@@ -37,7 +37,7 @@ friction <- mask(friction, lakes, inverse = TRUE)
 pop_raster <- mask(pop_raster, lakes, inverse = TRUE)
 
 # Subset health areas to only those infected (then include Ugandan admin2)
-ha_infect <- health_areas[which(health_areas@data$sr_46_new == 1),]
+ha_infect <- health_areas[which(health_areas@data$sr_42_new == 1),]
 ha_infect <- raster::union(ha_infect, kasese)
 
 
