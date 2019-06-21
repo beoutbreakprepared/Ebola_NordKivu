@@ -1,0 +1,122 @@
+Country,Admin1,Facility name,Facility type,Ownership,Latitude,Longitude,LL source,type,FacilityType
+Uganda,Central,Bishop Ascili Hospital,Hospital,Private not for profit,0.4715,32.8352,Google Earth,Hospital,Hospital
+Uganda,Central,Buikwe St. Charles Lwanga Hospital,Hospital,Private not for profit,0.2827,33.0339,Google Earth,Hospital,Hospital
+Uganda,Central,Butabika National Referal Hospital,National Referral Hospital,MoH,0.32,32.6575,Geonames,Referral,Hospital
+Uganda,Central,Entebbe Hospital,Hospital,MoH,0.052,32.465,GPS,Hospital,Hospital
+Uganda,Central,Family Care Hospital,Hospital,Private not for profit,0.3532,32.5626,Other,Hospital,Hospital
+Uganda,Central,Gombe Hospital,Hospital,MoH,0.179,32.131,GPS,Hospital,Hospital
+Uganda,Central,Kalisizo Hospital,Hospital,MoH,-0.535,31.609,GPS,Hospital,Hospital
+Uganda,Central,Kawolo Hospital,Hospital,MoH,0.35,32.9333,Geonames,Hospital,Hospital
+Uganda,Central,Kayunga Hospital,Hospital,MoH,0.699,32.9037,Other,Hospital,Hospital
+Uganda,Central,Kiboga Hospital,Hospital,MoH,0.911,31.776,GPS,Hospital,Hospital
+Uganda,Central,Kibuli Hospital,Hospital,Private not for profit,0.3103,32.5941,Other,Hospital,Hospital
+Uganda,Central,Kisubi Hospital,Hospital,Private not for profit,0.1254,32.559,GPS,Hospital,Hospital
+Uganda,Central,Kiwoko Hospital,Hospital,Private not for profit,0.8464,32.3531,Other,Hospital,Hospital
+Uganda,Central,Lugazi Scoul Hospital,Hospital,Private not for profit,0.3669,32.9425,Other,Hospital,Hospital
+Uganda,Central,Masaka Hospital,Hospital,MoH,-0.3445,31.7259,GPS,Hospital,Hospital
+Uganda,Central,Mengo Hospital,Hospital,Private not for profit,0.3163,32.5609,Other,Hospital,Hospital
+Uganda,Central,Mild May Hospital,Hospital,Private not for profit,0.3851,32.476,Google Earth,Hospital,Hospital
+Uganda,Central,Mityana Hospital,Hospital,MoH,0.4175,32.0228,Other,Hospital,Hospital
+Uganda,Western,Fort Portal Regional Referral Hospital,Regional Referral Hospital,MoH,0.6577,30.2766,Google Earth,Referral,Hospital
+Uganda,Northern,Gulu Regional Referral Hospital,Regional Referral Hospital,MoH,2.7794,32.2891,Google Earth,Referral,Hospital
+Uganda,Western,Kabale Regional Referal Hospital,Regional Referral Hospital,MoH,-1.2485,29.9891,Google Earth,Referral,Hospital
+Uganda,Central,Naggalama Hospital,Hospital,Private not for profit,0.516,32.775,GPS,Hospital,Hospital
+Uganda,Central,Naguru - China Uganda Friendship Hospital,Hospital,MoH,0.3292,32.6064,Google Earth,Hospital,Hospital
+Uganda,Central,Nakaseke Hospital,Hospital,MoH,0.796,32.436,GPS,Hospital,Hospital
+Uganda,Central,Namungoona Orthodox Hospital,Hospital,Private not for profit,0.3393,32.5354,Other,Hospital,Hospital
+Uganda,Central,Nkokonjeru Hospital,Hospital,Private not for profit,0.8263,32.9469,Other,Hospital,Hospital
+Uganda,Central,Nkozi Hospital,Hospital,Private not for profit,0.023,32.014,GPS,Hospital,Hospital
+Uganda,Central,Old Kampala Hospital,Hospital,Private not for profit,0.3168,32.5653,Other,Hospital,Hospital
+Uganda,Central,Rakai Hospital,Hospital,MoH,-0.707,31.394,GPS,Hospital,Hospital
+Uganda,Central,Ruth Gaylord Hospital,Hospital,Private not for profit,0.3922,32.5495,Google Earth,Hospital,Hospital
+Uganda,Central,Saidina Abubakar Islamic Hospital,Hospital,Private not for profit,0.4175,32.5371,Google Earth,Hospital,Hospital
+Uganda,Central,St. Francis Nyenga Hospital,Hospital,Private not for profit,0.395,33.14,GPS,Hospital,Hospital
+Uganda,Central,St. Joseph Kitovu Hospital,Hospital,Private not for profit,-0.3333,31.7667,Other,Hospital,Hospital
+Uganda,Central,St. Stephens Mpererwe Hospital,Hospital,Private not for profit,0.309,32.6047,Google Earth,Hospital,Hospital
+Uganda,Central,Uganda Matyrs Hospital,Hospital,Private not for profit,0.3375,32.7186,Other,Hospital,Hospital
+Uganda,Central,Villa Maria Hospital,Hospital,Private not for profit,-0.33,31.7345,Google Earth,Hospital,Hospital
+Uganda,Eastern,Almeca Medicare Hospital,Hospital,Private not for profit,0.47,33.2123,Combination,Hospital,Hospital
+Uganda,Eastern,Al-Shafa Medical Centre Hospital,Hospital,Private not for profit,0.4587,33.2175,Other,Hospital,Hospital
+Uganda,Eastern,Atutur Hospital,Hospital,MoH,1.422,33.99,GPS,Hospital,Hospital
+Uganda,Eastern,Bududa Hospital,Hospital,MoH,0.3772,32.9197,Geonames,Hospital,Hospital
+Uganda,Eastern,Bugiri Hospital,Hospital,MoH,0.5758,33.7429,GPS,Hospital,Hospital
+Uganda,Eastern,Bukwo General Hospital,Hospital,MoH,1.294,34.7553,Google Earth,Hospital,Hospital
+Uganda,Eastern,Buluba Hospital,Hospital,Private not for profit,0.4833,33.4,Other,Hospital,Hospital
+Uganda,Eastern,Busolwe Hospital,Hospital,MoH,0.8527,33.9283,GPS,Hospital,Hospital
+Uganda,Eastern,Buwenge Hospital,Hospital,MoH,0.6481,33.1705,GPS,Hospital,Hospital
+Uganda,Eastern,Dabani Hospital,Hospital,Private not for profit,0.4395,34.0516,GPS,Hospital,Hospital
+Uganda,Eastern,Iganga Hospital,Hospital,MoH,0.6152,33.4797,Google Earth,Hospital,Hospital
+Uganda,Eastern,Kabasa Memorial Hospital,Hospital,Private not for profit,0.8575,33.8926,GPS,Hospital,Hospital
+Uganda,Eastern,Kamuli Hospital,Hospital,MoH,0.946,33.118,GPS,Hospital,Hospital
+Uganda,Eastern,Kamuli Mission Hospital,Hospital,Private not for profit,0.3526,32.6483,Google Earth,Hospital,Hospital
+Uganda,Eastern,Kanginima Hospital,Hospital,Private not for profit,1.202,33.977,GPS,Hospital,Hospital
+Uganda,Eastern,Kapchorwa Hospital,Hospital,MoH,1.4054,34.4415,GPS,Hospital,Hospital
+Uganda,Eastern,Katakwi Hospital,Hospital,MoH,1.9201,33.9623,GPS,Hospital,Hospital
+Uganda,Eastern,Kumi Hospital,Hospital,Private not for profit,1.5038,33.9349,Other,Hospital,Hospital
+Uganda,Eastern,Lwala Hospital,Hospital,Private not for profit,1.8623,33.2776,GPS,Hospital,Hospital
+Uganda,Eastern,Lyantonde Hospital,Hospital,MoH,-0.4031,31.1572,Other,Hospital,Hospital
+Uganda,Eastern,Masafu Hospital,Hospital,MoH,0.4159,34.0339,GPS,Hospital,Hospital
+Uganda,Northern,Lira Regional Referral Hospital,Regional Referral Hospital,MoH,2.2555,32.9014,Google Earth,Referral,Hospital
+Uganda,Eastern,Ngora Freda Carr Hospital,Hospital,Private not for profit,1.443,33.713,GPS,Hospital,Hospital
+Uganda,Eastern,Pallisa Hospital,Hospital,MoH,1.1667,33.7068,GPS,Hospital,Hospital
+Uganda,Eastern,Mbale Regional Referral Hospital,Regional Referral Hospital,MoH,1.0925,34.1744,Google Earth,Referral,Hospital
+Uganda,Eastern,St. Anthony'S Hospital,Hospital,Private not for profit,0.7028,34.1699,Other,Hospital,Hospital
+Uganda,Eastern,Tororo Hospital,Hospital,MoH,0.7059,34.2001,GPS,Hospital,Hospital
+Uganda,Eastern,Tororo St. Anthony Hospital,Hospital,Private not for profit,0.7028,34.1699,Other,Hospital,Hospital
+Uganda,Northern,Aber Hospital,Hospital,Private not for profit,2.214,32.411,GPS,Hospital,Hospital
+Uganda,Northern,Abim Hospital,Hospital,MoH,2.676,33.662,GPS,Hospital,Hospital
+Uganda,Northern,Adjumani Hospital,Hospital,MoH,2.1369,32.4985,GPS,Hospital,Hospital
+Uganda,Northern,Amai Community Hospital,Hospital,Private not for profit,1.7935,32.9199,GPS,Hospital,Hospital
+Uganda,Northern,Amudat Hospital,Hospital,MoH,1.9534,34.9438,Google Earth,Hospital,Hospital
+Uganda,Northern,Amudat Hospital,Hospital,Private not for profit,1.9534,34.9438,Google Earth,Hospital,Hospital
+Uganda,Northern,Anaka Hospital,Hospital,MoH,2.5944,31.9633,Other,Hospital,Hospital
+Uganda,Northern,Angal Hospital,Hospital,Private not for profit,2.395,31.172,GPS,Hospital,Hospital
+Uganda,Northern,Apac Hospital,Hospital,MoH,1.9817,32.5332,GPS,Hospital,Hospital
+Uganda,Northern,Arua Hospital,Hospital,MoH,3.0229,30.912,GPS,Hospital,Hospital
+Uganda,Western,Mbarara Regional Referral Hospital,Regional Referral Hospital,MoH,-0.6077,30.67,Google Earth,Referral,Hospital
+Uganda,Northern,Kaabong Hospital,Hospital,MoH,3.5151,34.1312,GPS,Hospital,Hospital
+Uganda,Northern,Kalongo Ambrosoli Memerial Hospital,Hospital,Private not for profit,3.0287,33.3688,Google Earth,Hospital,Hospital
+Uganda,Northern,Koboko Hospital,Hospital,MoH,3.4094,30.9594,GPS,Hospital,Hospital
+Uganda,Northern,Kuluva Hospital,Hospital,Private not for profit,2.9498,30.9338,GPS,Hospital,Hospital
+Uganda,Central,Mubende Regional Referral Hospital,Regional Referral Hospital,MoH,0.5892,31.36,Google Earth,Referral,Hospital
+Uganda,Northern,Maracha Hospital,Hospital,Private not for profit,3.2399,30.9214,GPS,Hospital,Hospital
+Uganda,Northern,Matany Hospital,Hospital,Private not for profit,2.4474,34.393,GPS,Hospital,Hospital
+Uganda,Northern,Moroto Hospital,Hospital,MoH,2.5333,34.7666,Other,Hospital,Hospital
+Uganda,Northern,Moyo Hospital,Hospital,MoH,3.6578,31.728,GPS,Hospital,Hospital
+Uganda,Northern,Nebbi Hospital,Hospital,MoH,2.48,31.086,GPS,Hospital,Hospital
+Uganda,Northern,Nyapea Hospital,Hospital,Private not for profit,2.475,30.943,GPS,Hospital,Hospital
+Uganda,Northern,Oriajini Hospital,Hospital,Private not for profit,3.1001,30.9681,GPS,Hospital,Hospital
+Uganda,Northern,St. Joseph'S Kitgum Hospital,Hospital,Private not for profit,3.2979,32.8809,GPS,Hospital,Hospital
+Uganda,Northern,St. Mary'S Lacor Hospital,Hospital,Private not for profit,2.7684,32.252,GPS,Hospital,Hospital
+Uganda,Northern,Yumbe Hospital,Hospital,MoH,3.482,31.251,GPS,Hospital,Hospital
+Uganda,Western,Buliisa Hospital,Hospital,MoH,-1.1474,30.178,Google Earth,Hospital,Hospital
+Uganda,Western,Bundibugyo Hospital,Hospital,MoH,0.8333,30.25,Other,Hospital,Hospital
+Uganda,Western,Bwera Hospital,Hospital,MoH,0.036,29.761,GPS,Hospital,Hospital
+Uganda,Western,Bwindi Community Hospital,Hospital,Private not for profit,-0.948,29.6208,Combination,Hospital,Hospital
+Uganda,Western,Comboni Hospital,Hospital,Private not for profit,-0.5407,30.1891,Google Earth,Hospital,Hospital
+Uganda,Central,Mulago National Refferal Hospital,National Referral Hospital,MoH,0.35,32.5833,Other,Referral,Hospital
+Uganda,Western,Hoima Hospital,Hospital,MoH,1.433,31.335,GPS,Hospital,Hospital
+Uganda,Western,Ibanda Hospital,Hospital,Private not for profit,-0.1539,30.5319,Other,Hospital,Hospital
+Uganda,Western,Ishaka Adventist Hospital,Hospital,Private not for profit,-0.543,30.1386,Google Earth,Hospital,Hospital
+Uganda,Western,Itojo Hospital,Hospital,MoH,-0.803,30.293,GPS,Hospital,Hospital
+Uganda,Central,Mulago Old National Referal Hospital,Regional Referral Hospital,MoH,0.3467,32.5762,Other,Referral,Hospital
+Uganda,Western,Kabarole COU Hospital,Hospital,Private not for profit,0.651,30.269,GPS,Hospital,Hospital
+Uganda,Western,Kagadi Hospital,Hospital,MoH,0.951,30.806,GPS,Hospital,Hospital
+Uganda,Western,Kagando Hospital,Hospital,Private not for profit,0.025,29.891,GPS,Hospital,Hospital
+Uganda,Western,Kambuga Hospital,Hospital,MoH,-0.832,29.772,GPS,Hospital,Hospital
+Uganda,Western,Kilembe Hospital,Hospital,Private not for profit,0.205,30.01,GPS,Hospital,Hospital
+Uganda,Western,Kiryandongo Hospital,Hospital,MoH,1.8802,32.0692,GPS,Hospital,Hospital
+Uganda,Western,Kisiizi Hospital,Hospital,Private not for profit,-0.9886,29.9488,GPS,Hospital,Hospital
+Uganda,Western,Kisoro Hospital,Hospital,MoH,-1.277,29.684,GPS,Hospital,Hospital
+Uganda,Western,Kitagata Hospital,Hospital,MoH,-0.6735,30.1525,Other,Hospital,Hospital
+Uganda,Western,Kyenjojo Hospital,Hospital,MoH,0.639,30.623,GPS,Hospital,Hospital
+Uganda,Western,Masindi General Hospital,Hospital,MoH,1.6854,31.7266,Google Earth,Hospital,Hospital
+Uganda,Eastern,Soroti Regional Referral Hospital,Regional Referral Hospital,MoH,1.7301,33.6238,Google Earth,Referral,Hospital
+Uganda,Western,Mutolere Hospital,Hospital,Private not for profit,-1.258,29.719,GPS,Hospital,Hospital
+Uganda,Western,Nyakibale Hospital,Hospital,Private not for profit,-0.804,29.926,GPS,Hospital,Hospital
+Uganda,Western,Rugarama Hospital,Hospital,Private not for profit,-1.237,29.975,GPS,Hospital,Hospital
+Uganda,Western,Ruharo Mission Hospital,Hospital,Private not for profit,-0.613,30.63,GPS,Hospital,Hospital
+Uganda,Western,Rushere Community Hospital,Hospital,Private not for profit,-0.2367,30.9611,Other,Hospital,Hospital
+Uganda,Western,Tumu Hospital,Hospital,Private not for profit,-1.1466,30.1779,Google Earth,Hospital,Hospital
+Uganda,Western,Virika Hospital,Hospital,Private not for profit,0.6332,30.2783,GPS,Hospital,Hospital
+Uganda,Eastern,Jinja Regional Referral Hospital,Hospital,MoH,0.4302,33.2108,Other,Hospital,Hospital

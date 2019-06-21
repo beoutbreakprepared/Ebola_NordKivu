@@ -1,0 +1,48 @@
+Country,Admin1,Facility name,Facility type,Ownership,Latitude,Longitude,LL source,type,FacilityType
+Rwanda,East,Gahini District Hospital,District Hospital,Public,-1.8407,30.4832,GPS,Hospital,Hospital
+Rwanda,East,Kibungo Referral Hospital,Referral Hospital,Public,-2.1659,30.5394,GPS,Referral,Hospital
+Rwanda,East,Kirehe District Hospital,District Hospital,Public,-2.2674,30.6536,GPS,Hospital,Hospital
+Rwanda,East,Kiziguro District Hospital,District Hospital,Public,-1.7666,30.3848,GPS,Hospital,Hospital
+Rwanda,East,Ngarama District Hospital,District Hospital,Public,-1.546,30.2429,GPS,Hospital,Hospital
+Rwanda,East,Nyagatare District Hospital,District Hospital,Public,-1.2981,30.3262,GPS,Hospital,Hospital
+Rwanda,East,Nyamata District Hospital,District Hospital,Public,-2.1384,30.0799,GPS,Hospital,Hospital
+Rwanda,East,Rwamagana Provincial Hospital,Provincial Hospital,Public,-1.9503,30.4331,GPS,Hospital,Hospital
+Rwanda,East,Rwinkwavu District Hospital,District Hospital,Public,-1.964,30.6141,GPS,Hospital,Hospital
+Rwanda,Kigali City,Caraes Ndera National Referral Hospital,National Referral Hospital,Public,-1.9547,30.169,GPS,Referral,Hospital
+Rwanda,Kigali City,CHK/CHUK National Referral Hospital,National Referral Hospital,Public,-1.9565,30.0604,GPS,Referral,Hospital
+Rwanda,Kigali City,Kacyiru District Hospital,District Hospital,Public,-1.9331,30.0752,GPS,Hospital,Hospital
+Rwanda,Kigali City,Kibagabaga District Hospital,District Hospital,Public,-1.9308,30.112,GPS,Hospital,Hospital
+Rwanda,Kigali City,King Faisal National Referral Hospital,National Referral Hospital,Public,-1.9439,30.0951,GPS,Referral,Hospital
+Rwanda,Kigali City,Masaka District Hospital,District Hospital,Public,-1.9956,30.1913,GPS,Hospital,Hospital
+Rwanda,Kigali City,Muhima District Hospital,District Hospital,Public,-1.9367,30.0585,GPS,Hospital,Hospital
+Rwanda,North,Butaro District Hospital,District Hospital,Public,-1.4089,29.8366,GPS,Hospital,Hospital
+Rwanda,North,Byumba District Hospital,District Hospital,Public,-1.5893,30.0551,GPS,Hospital,Hospital
+Rwanda,North,Kinihira Provincial Hospital,Provincial Hospital,Public,-1.6619,29.9886,GPS,Hospital,Hospital
+Rwanda,North,Nemba District Hospital,District Hospital,Public,-1.6377,29.7867,GPS,Hospital,Hospital
+Rwanda,North,Ruhengeri Referral Hospital,Referral Hospital,Public,-1.5058,29.6367,GPS,Referral,Hospital
+Rwanda,North,Ruli District Hospital,District Hospital,Public,-1.8296,29.8494,GPS,Hospital,Hospital
+Rwanda,North,Rutongo District Hospital,District Hospital,Public,-1.8148,30.0598,GPS,Hospital,Hospital
+Rwanda,South,Butare CHU National Referral Hospital,National Referral Hospital,Public,-2.612,29.7352,GPS,Referral,Hospital
+Rwanda,South,Gakoma District Hospital,District Hospital,Public,-2.3497,29.9177,GPS,Hospital,Hospital
+Rwanda,South,Gitwe District Hospital,District Hospital,Public,-2.247,29.6893,GPS,Hospital,Hospital
+Rwanda,South,Kabgayi District Hospital,District Hospital,Public,-2.1045,29.7506,GPS,Hospital,Hospital
+Rwanda,South,Kabutare District Hospital,District Hospital,Public,-2.6073,29.7473,GPS,Hospital,Hospital
+Rwanda,South,Kaduha District Hospital,District Hospital,Public,-2.3333,29.5262,GPS,Hospital,Hospital
+Rwanda,South,Kibilizi District Hospital,District Hospital,Public,-2.6486,29.7834,GPS,Hospital,Hospital
+Rwanda,South,Kigeme District Hospital,District Hospital,Public,-2.4793,29.5258,GPS,Hospital,Hospital
+Rwanda,South,Munini District Hospital,District Hospital,Public,-2.7134,29.5355,GPS,Hospital,Hospital
+Rwanda,South,Nyanza District Hospital,District Hospital,Public,-2.3526,29.7493,GPS,Hospital,Hospital
+Rwanda,South,Remera Rukoma District Hospital,District Hospital,Public,-1.9387,29.9099,GPS,Hospital,Hospital
+Rwanda,South,Ruhango Provincial Hospital,Provincial Hospital,Public,-2.1937,29.9055,GPS,Hospital,Hospital
+Rwanda,West,Bushenge Provincial Hospital,Provincial Hospital,Public,-2.4451,28.9858,GPS,Hospital,Hospital
+Rwanda,West,Gihundwe District Hospital,District Hospital,Public,-2.483,28.9147,GPS,Hospital,Hospital
+Rwanda,West,Gisenyi District Hospital,District Hospital,Public,-1.7021,29.2623,GPS,Hospital,Hospital
+Rwanda,West,Kabaya District Hospital,District Hospital,Public,-1.7472,29.5373,GPS,Hospital,Hospital
+Rwanda,West,Kibogora District Hospital,District Hospital,Public,-2.3262,29.1322,GPS,Hospital,Hospital
+Rwanda,West,Kibuye Referral Hospital,Referral Hospital,Public,-2.067,29.3463,GPS,Referral,Hospital
+Rwanda,West,Kirinda District Hospital,District Hospital,Public,-1.9349,29.6253,GPS,Hospital,Hospital
+Rwanda,West,Mibilizi District Hospital,District Hospital,Public,-2.5676,28.9537,GPS,Hospital,Hospital
+Rwanda,West,Mugonero District Hospital,District Hospital,Public,-2.1808,29.2927,GPS,Hospital,Hospital
+Rwanda,West,Muhororo District Hospital,District Hospital,Public,-1.9349,29.6253,GPS,Hospital,Hospital
+Rwanda,West,Murunda District Hospital,District Hospital,Public,-1.9068,29.3761,GPS,Hospital,Hospital
+Rwanda,West,Shyira District Hospital,District Hospital,Public,-1.682,29.6291,GPS,Hospital,Hospital

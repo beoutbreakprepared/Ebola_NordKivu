@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ARCXML version="1.1">
+  <CONFIG>
+    <ENVIRONMENT>
+      <LOCALE country="GB" language="en" variant="" />
+      <UIFONT color="0,0,0" name="Arial" size="12" style="regular" />
+      <SCREEN dpi="96" />
+    </ENVIRONMENT>
+    <MAP>
+      <PROPERTIES>
+	<ENVELOPE minx="-16.431640625" miny="-34.75283432006836" maxx="49.32122039794922" maxy="37.20185852050781" name="Initial_Extent" />
+	<MAPUNITS units="decimal_degrees" />
+      </PROPERTIES>
+      <WORKSPACES>
+	<SHAPEWORKSPACE name="shp_ws-0" directory="\\artemis1\geonet\aglw\inlandwaters\africa\african_inland_water_281" />
+      </WORKSPACES>
+      <LAYER type="featureclass" name="water bodies" visible="true" id="0">
+	<DATASET name="af_wtr" type="polygon" workspace="shp_ws-0" />
+	<SIMPLERENDERER>
+	  <SIMPLEPOLYGONSYMBOL boundarytransparency="1.0" filltransparency="1.0" fillcolor="0,0,255" boundarycaptype="round" />
+	</SIMPLERENDERER>
+      </LAYER>
+    </MAP>
+  </CONFIG>
+</ARCXML>
