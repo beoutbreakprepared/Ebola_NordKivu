@@ -1,0 +1,436 @@
+Country,Admin1,Facility name,Facility type,Ownership,Latitude,Longitude,LL source,type,FacilityType
+Democratic Republic of the Congo,Bas-Uele,Aketi Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.7306,23.7852,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Bas-Uele,Ango Hôpital Général de Référence,Hôpital Général de Référence,Publique,4.0569,25.8506,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Bas-Uele,Bili Hôpital Général de Référence,Hôpital Général de Référence,Publique,4.245,26.539,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Bas-Uele,Bondo Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.8177,23.6862,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Bas-Uele,Buta Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.7888,24.7294,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Bas-Uele,Likati Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.8863,24.0495,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Bas-Uele,Pawa Hôpital Général de Référence,Hôpital Général de Référence,Publique,4.0864,26.6827,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Bas-Uele,Poko Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.153,26.8827,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Bas-Uele,Titule Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.2631,25.5622,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Bas-Uele,Viadana Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.8786,27.1895,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Agrifor Centre Hôpital,Centre Hôpital,Publique,-5.5763,13.0236,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Boko Kivulu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.4544,15.1302,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Boma Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.8456,13.0487,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Gombe Matadi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.9771,14.7117,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Graaf Centre Hôpital,Centre Hôpital,Publique,-5.4131,12.9582,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Ime Kimpese Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.556,14.4252,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Inga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.602,13.4507,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Kangu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.2477,12.9664,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Kiamvu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.8229,13.4655,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Kibunzi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.1804,13.8861,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Kiezila Centre Hôpital,Centre Hôpital,Publique,-5.5694,13.0352,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Kimbungu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.803,14.7875,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Kimvula Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.5501,15.9933,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Kinkanda Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.8359,13.4459,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Kinkonzi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.9206,13.0927,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Kinkosi Luidi Centre Hôpital,Centre Hôpital,Publique,-5.6334,15.6664,Geonames,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Kionzo Centre Hôpital,Centre Hôpital,Publique,-5.7544,13.4221,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Kipholo 2 Centre Hôpital,Centre Hôpital,Publique,-5.3645,12.5745,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Kitona Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.9645,12.4648,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Kizu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.9601,12.9954,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Kuimba Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.0817,12.8087,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Lukula Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.5743,13.0363,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Luozi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.9418,14.1249,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Makaya Centre Hôpital,Centre Hôpital,Publique,-5.1918,13.5083,Google Earth,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Mangembo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.6049,14.2663,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Martin Luther Centre Hôpital,Centre Hôpital,Publique,-5.7975,13.0485,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Matetta Centre Hôpital,Centre Hôpital,Publique,-5.231,15.0293,Geonames,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Mbata Manji Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.1143,12.83,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Moanda Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.9253,12.3712,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Ngidinga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.6153,15.285,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Nsanda Kizulu Centre Hôpital,Centre Hôpital,Publique,-5.6125,13.4428,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Nselo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.2628,15.3352,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Nsona Mpangu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.5164,13.9092,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Onatra Centre Hôpital,Centre Hôpital,Publique,-5.8449,13.0465,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Onatra Hôpital,Hôpital,Publique,-5.8225,13.4586,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Sampa Centre Hôpital,Centre Hôpital,Publique,-5.8567,13.0621,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Seke Banza Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.3346,13.2793,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Sona Bata Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.8983,15.1588,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Tsumba Kituti Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.6529,13.1915,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Vaku Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.2311,13.1164,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Congo Central,Zongo Centre Hôpital,Centre Hôpital,Publique,-4.7864,14.8921,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Basankusu Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.2186,19.7912,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Bikoro Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.7257,18.1246,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Bolenge Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.0064,18.211,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Bolomba Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.3535,19.223,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Bomongo Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.38,18.3506,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Djombo Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.3486,20.3829,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Iboko Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.1132,18.5334,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Ingende Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.3086,18.9652,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Irebu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.6131,17.7402,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Lilanga Bobangi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.4406,17.7424,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Lotumbe Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.5246,19.4256,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Lukolela Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.0618,17.1774,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Makanza Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.6144,19.0943,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Mampoko Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.8618,18.6755,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Mbandaka Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.0452,18.2645,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Monieka Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.3523,19.2262,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Ntondo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.8245,18.1294,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Equateur,Wangata Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.0544,18.3328,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Kafubu General Referencia,Hôpital Général de Référence,Publique,-11.2639,27.8738,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Kamalondo General Referencia,Hôpital Général de Référence,Publique,-8.0283,23.8505,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Kambove General Referencia,Hôpital Général de Référence,Publique,-10.8765,26.589,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Kapolowe Hôpital Général de Référence,Hôpital Général de Référence,Publique,-11.0316,26.9494,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Kasenga General Referencia,Hôpital Général de Référence,Publique,-10.3804,28.6061,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Kashobwe General Referencia,Hôpital Général de Référence,Publique,-9.6859,28.6253,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Kikula General Referencia,Hôpital Général de Référence,Publique,-10.9737,26.7192,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Kilwa Hôpital Général de Référence,Hôpital Général de Référence,Publique,-9.2834,28.3323,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Kipushi General Referencia,Hôpital Général de Référence,Publique,-11.7602,27.2365,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Kisanga General Referencia,Hôpital Général de Référence,Publique,-11.6981,27.4552,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Kowe General Referencia,Hôpital Général de Référence,Publique,-11.7406,27.4645,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Likasi General Referencia,Hôpital Général de Référence,Publique,-10.994,26.7479,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Lubumbashi General Referencia,Hôpital Général de Référence,Publique,-11.6753,27.4322,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Lukafu General Referencia,Hôpital Général de Référence,Publique,-10.5099,27.5459,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Mitwaba General Referencia,Hôpital Général de Référence,Publique,-8.648,27.3408,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Mumbunda General Referencia,Hôpital Général de Référence,Publique,-11.8733,27.4595,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Panda General Referencia,Hôpital Général de Référence,Publique,-11.3478,26.7627,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Pweto General Referencia,Hôpital Général de Référence,Publique,-8.4698,28.8996,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Rwashi General Referencia,Hôpital Général de Référence,Publique,-11.6396,27.5402,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Sakania Hôpital Général de Référence,Hôpital Général de Référence,Publique,-12.7488,28.566,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Katanga,Vangu General Referencia,Hôpital Général de Référence,Publique,-11.658,27.4655,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Baka General Referencia,Hôpital Général de Référence,Publique,-8.7839,24.9597,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Bukama Hôpital Général de Référence,Hôpital Général de Référence,Publique,-9.1981,25.8544,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Butumba General Referencia,Hôpital Général de Référence,Publique,-8.9034,26.0631,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Kabondo Dianda General Referencia,Hôpital Général de Référence,Publique,-8.9115,25.6635,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Kabongo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-7.3979,25.6337,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Kakanga Hôpital,Hôpital,Publique,-7.5146,26.3827,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Kamina Hôpital Général de Référence,Hôpital Général de Référence,Publique,-8.7366,24.99,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Kaniama Hôpital Général de Référence,Hôpital Général de Référence,Publique,-7.5146,24.1735,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Kayamba General Referencia,Hôpital Général de Référence,Publique,-6.8014,25.2249,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Kayeye Hôpital,Hôpital,Publique,-8.5813,25.8826,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Kinda General Referencia,Hôpital Général de Référence,Publique,-9.2797,25.0766,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Kinkondja General Referencia,Hôpital Général de Référence,Publique,-7.8089,26.4812,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Kitenge Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.8979,25.9661,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Lwamba General Referencia,Hôpital Général de Référence,Publique,-7.9093,26.7471,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Malemba N'kulu General Referencia,Hôpital Général de Référence,Publique,-8.2044,26.4228,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Mukanga General Referencia,Hôpital Général de Référence,Publique,-8.2212,26.9172,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Mulongo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-7.8313,27.0014,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Haut Lomami,Songa Hôpital Général de Référence,Hôpital Général de Référence,Publique,-8.098,25.0317,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Haut-Uele,Aba Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.8204,30.1963,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Haut-Uele,Doruma Hôpital Général de Référence,Hôpital Général de Référence,Publique,4.7364,27.6994,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Haut-Uele,Faradje Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.735,29.7058,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Haut-Uele,Gombari Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.7196,29.0659,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Haut-Uele,Isiro Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.7685,27.6231,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Haut-Uele,Nebobongo Centre Hôpital,Centre Hôpital,Publique,2.4619,27.6318,Combination,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Haut-Uele,Neisu Centre Hôpital,Centre Hôpital,Publique,2.7326,27.4048,Geonames,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Haut-Uele,Niangara Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.6958,27.8736,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Haut-Uele,Watsa Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.0402,29.5348,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Adi Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.403,30.7993,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Ariwara Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.1413,30.7018,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Aru Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.0282,30.6124,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Aungba Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.5476,30.5056,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Bambu Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.8029,30.2446,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Biringi Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.8059,30.3353,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Boga Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.0299,29.9556,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Bunia Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.5623,30.2515,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Drodro Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.7696,30.5326,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Fataki Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.0029,30.5659,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Jiba Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.8822,30.6975,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Laybo Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.2652,30.5663,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Logo Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.1838,30.9241,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Lolwa Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.2361,29.4659,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Mahagi Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.3028,30.9911,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Mambasa Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.3651,29.0353,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Rethy Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.0862,30.8826,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Rimba Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.2203,30.6568,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Ituri,Rungu Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.953,30.316,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Kasai Occidental,Bulape Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.8755,21.6232,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Kasai Occidental,Kamonia Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.8684,20.9429,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Kasai Occidental,Luebo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.3371,21.4066,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Kasai Occidental,Mikope Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.0493,20.8005,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Kasai Occidental,Nyanga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.9632,20.4184,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Kasai Oriental,Bibanga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.2584,23.9361,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kasai Oriental,Bonzola Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.1341,23.5997,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kasai Oriental,Kabeya Kamuanga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.9981,23.2604,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kasai Oriental,Kamiji Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.6479,23.2828,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Kasai Oriental,Katanda Centre Hôpital,Centre Hôpital,Publique,-6.3317,23.9014,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Kasai Oriental,Lukalaba Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.4944,23.6521,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kasai Oriental,Miabi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.2137,23.3912,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kasai Oriental,Muya Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.1006,23.6203,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kasai Oriental,Tshilenge Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.2464,23.767,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kinshasa,Akram Centre Hôpital,Centre Hôpital,Publique,-4.3298,15.3422,Google Earth,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Kinshasa,Bolingo Centre Hôpital,Centre Hôpital,Publique,-4.3591,15.2996,Combination,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Kinshasa,Kintambo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.3417,15.2674,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Kinshasa,Makala Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.3783,15.3158,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Kinshasa,Masuika Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.3506,15.3358,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kinshasa,Mokali Centre Hôpital,Centre Hôpital,Publique,-4.4438,15.2496,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Kinshasa,Mweka Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.4208,15.3101,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kinshasa,Saint Joseph Hôpital,Hôpital,Publique,-4.4219,15.3664,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kinshasa,Tshikula Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.4213,15.3899,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kinshasa,Tutante Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.4141,15.3981,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kinshasa,Yangala Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.4106,15.3875,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kinshasa,Yolo Medical Centre Hôpital,Centre Hôpital,Publique,-4.4169,15.4003,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Boko Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.3143,16.7662,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Feshi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.1306,18.1485,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Ganga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.1978,18.2829,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Kabondo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.3145,19.1329,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Kahemba Hôpital Général de Référence,Hôpital Général de Référence,Publique,-7.2812,18.9996,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Kajiji Hôpital Général de Référence,Hôpital Général de Référence,Publique,-7.6146,18.3829,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Kasongo-Lunda Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.4768,16.8122,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Kenge Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.8165,17.039,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Kimbau Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.4938,17.4656,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Kisandji Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.2517,19.2523,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Kitenda Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.8812,17.3496,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Moanza Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.4091,17.4918,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Mukedi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.3645,19.2496,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Panzi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.1151,17.4944,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Popokabaka Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.7064,16.5735,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Tembo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-7.6795,17.3331,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Kwango,Wamba Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.7519,16.9581,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Bagata Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.7315,17.9553,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Bandundu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.3154,17.3826,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Bulungu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.5421,18.6032,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Djuma Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.156,18.3591,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Gungu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.7311,19.3163,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Idiofa Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.9698,19.5896,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Ipamu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.1552,19.6254,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Kikongo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.2603,17.1789,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Kikwit 2 Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.0592,18.7981,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Kikwit-Nord Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.0377,18.8157,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Kimputu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.3975,19.3062,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Kingandu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.4978,18.4163,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Koshibanda Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.1738,19.8705,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Lusanga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.8335,18.7236,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Masi Manimba Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.7726,17.8866,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Mokala Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.9895,18.9505,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Mosango Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.8333,18.1226,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Mungindu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.4531,19.0021,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Sala Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.1476,18.685,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Sia Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.8108,18.5879,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Kwilu,Vanga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.4128,18.434,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Lomami,Kabinda Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.1482,24.4645,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Lomami,Kalenda Bay Hôpital Général de Référence,Hôpital Général de Référence,Publique,-7.1277,23.5359,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Lomami,Kalonda Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.6479,25.1661,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Lomami,Kanda Kanda Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.9312,23.5995,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Lomami,Kansele Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.5315,24.1288,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Lomami,Lubao Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.3855,25.7483,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Lomami,Luputa Hôpital Général de Référence,Hôpital Général de Référence,Publique,-7.1597,23.7,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Lomami,St Joseph Centre Hôpital,Centre Hôpital,Publique,-6.1302,24.5259,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Lomami,Tshimala Hôpital Général de Référence,Hôpital Général de Référence,Publique,-7.0145,23.4553,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Bunkeya Hôpital Général de Référence,Hôpital Général de Référence,Publique,-10.4102,26.9658,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Dilala General Referencia,Hôpital Général de Référence,Publique,-10.6631,25.3904,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Dilolo General Referencia,Hôpital Général de Référence,Publique,-10.6858,22.3547,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Fungurume General Referencia,Hôpital Général de Référence,Publique,-10.6166,26.3166,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Kafakumba General Referencia,Hôpital Général de Référence,Publique,-9.6773,23.7594,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Kalamba General Referencia,Hôpital Général de Référence,Publique,-9.0927,23.7189,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Kanzenze Hôpital,Hôpital,Publique,-10.5149,25.1994,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Kapanga General Referencia,Hôpital Général de Référence,Publique,-8.3614,22.6415,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Kasaji General Referencia,Hôpital Général de Référence,Publique,-8.8501,23.7347,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Kenya Hôpital Général de Référence,Hôpital Général de Référence,Publique,-10.0649,26.3161,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Lualaba General Referencia,Hôpital Général de Référence,Publique,-10.6843,25.4464,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Lubudi General Referencia,Hôpital Général de Référence,Publique,-9.95,25.9667,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Manika General Referencia,Hôpital Général de Référence,Publique,-10.7826,25.7344,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Mukabe Hôpital,Hôpital,Publique,-10.6982,26.0994,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Mutshatsha General Referencia,Hôpital Général de Référence,Publique,-10.6433,24.461,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Lualaba,Sandoa General Referencia,Hôpital Général de Référence,Publique,-9.6953,22.8727,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Lulua,Demba Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.4935,22.2691,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Lulua,Horizon 3000 Centre Hôpital,Centre Hôpital,Publique,-5.6139,23.4988,GPS,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Lulua,Kalomba Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.9474,22.7775,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Lulua,Kananga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-7.3062,22.0374,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Lulua,Luambo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-7.299,22.0417,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Lulua,Lubungu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-7.1007,22.1141,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Lulua,Mutoto Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.7292,22.7539,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Banzow Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.8074,17.5456,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Bokoro Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.8659,18.3707,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Bolobo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.1598,16.2263,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Bosobe Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.2898,18.825,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Dungu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.6476,18.8663,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Inongo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.9354,18.2783,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Kiri Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.4938,18.9269,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Kwamouth Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.1795,16.2011,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Lowa Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.1809,18.8496,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Mimia Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.4912,20.0124,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Monga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.1969,19.0331,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Mushie Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.0187,16.9247,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Nioki Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.7004,17.7035,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Ntandembelo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.1776,17.1656,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Oshwe Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.4146,19.4242,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Pendjwa Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.0974,19.0663,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Mai-Ndombe,Yumbi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.8935,16.5542,GPS,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Bioglodie Centre Hôpital,Centre Hôpital,Publique,-2.9356,25.8979,Combination,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Ferekeni Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.6668,26.1761,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Kabambare Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.6872,27.6908,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Kailo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.6279,26.1023,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Kalima Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.7064,26.2839,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Kampene Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.5858,26.6859,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Kasongo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.4251,26.666,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Kibombo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.9201,25.9276,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Kitulizo / BDOM Centre Hôpital,Centre Hôpital,Publique,-2.9717,25.9135,Combination,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Kunda Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.9669,26.5625,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Lubutu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.7421,26.5834,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Lusangi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.6378,27.1258,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,MSR Centre Hôpital,Centre Hôpital,Publique,-2.8582,25.8843,Combination,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Musofu Centre Hôpital,Centre Hôpital,Publique,-2.8717,25.9027,Combination,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Obokote Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.8952,26.2912,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Pangi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.1705,26.6315,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Punia Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.4508,26.4289,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Samba Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.628,26.3566,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Saramabila Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.0178,27.5351,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,SNCC Centre Hôpital,Centre Hôpital,Publique,-2.9175,25.9334,Combination,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Maniema,Tunda Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.2254,25.181,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Mongala,Binga Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.3696,20.4486,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Mongala,Bongandanga Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.5084,21.0686,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Mongala,Boso Manzi Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.9463,21.4528,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Mongala,Boso Mondanda Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.9375,20.367,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Mongala,Bosondjo Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.8667,21.7667,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Mongala,Bumba Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.1837,22.4665,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Mongala,Lisala Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.1633,21.5083,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Mongala,Lolo Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.215,22.9271,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Mongala,Pimu Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.7856,20.9066,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Mongala,Yamaluka Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.305,22.3486,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Mongala,Yambuku Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.8165,22.2332,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Mongala,Yamongili Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.4015,22.6428,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Alimbongo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.3633,29.1831,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Beni Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.4939,29.4653,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Biena Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.3208,28.8865,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Butembo Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.118,29.2227,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Goma Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.663,29.1906,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Itebero Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.6759,28.1299,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Kalunguta Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.4881,29.444,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Kamango Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.6165,29.8947,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Karisimbi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.6754,29.2357,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Katoyi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.3405,28.7116,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Katwa Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.1164,29.3706,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Kayna Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.607,29.166,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Kibua Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.234,28.4163,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Kirotshe Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.6123,29.031,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Kyondo Hôpital Général de Référence,Hôpital Général de Référence,Publique,4.00E-04,29.3991,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Lubero Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.1537,29.2301,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Mabalako Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.6064,29.314,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Manguredjipa Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.3534,28.7655,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Masereka Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.1392,29.3143,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Masisi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.3973,28.8143,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Musienene Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.017,29.2478,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Mutwanga Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.3383,29.7427,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Mweso Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.1156,29.0308,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Oicha Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.7028,29.5027,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Pinga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.984,28.702,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Vuhovi Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.1426,29.4062,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Kivu,Walikale Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.4281,28.065,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Ubangi,Abuzi Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.943,22.2615,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Ubangi,Bosobolo Hôpital Général de Référence,Hôpital Général de Référence,Publique,4.1876,19.8734,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Ubangi,Businga Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.3465,20.8604,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Ubangi,Gbadolite Hôpital Général de Référence,Hôpital Général de Référence,Publique,4.2849,20.989,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Ubangi,Karawa Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.3335,20.3051,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Ubangi,Loko Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.8132,22.6307,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Ubangi,Mobayi-Mbongo Hôpital Général de Référence,Hôpital Général de Référence,Publique,4.29,21.1743,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Ubangi,Wapinda Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.6762,22.8001,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Ubangi,Wasolo Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.9499,22.5168,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Nord Ubangi,Yakoma Hôpital Général de Référence,Hôpital Général de Référence,Publique,4.0981,22.4399,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sankuru,Bena Dibele Centre Hôpital,Centre Hôpital,Publique,-4.0999,22.83,Geonames,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Sankuru,Dikungu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.1177,24.4461,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Sankuru,Katako Kombe Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.3972,24.4187,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sankuru,Kole Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.4605,22.4441,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sankuru,Lodja Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.5186,23.6,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sankuru,Lomela Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.278,23.3654,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sankuru,Lusambo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.9727,23.4434,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sankuru,Minga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.681,24.3161,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sankuru,Tshumbe Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.0195,24.3873,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sankuru,Wembo Nyama Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.128,24.5134,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Baraka Hôpital,Hôpital,Publique,-4.0905,29.08,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Bugarula Centre Hôpital,Centre Hôpital,Publique,-2.042,29.064,Combination,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Bunyakiri Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.0791,28.5521,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Ciriri Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.5186,28.837,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Fizi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.1943,29.0382,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kadutu Hôpital,Hôpital,Publique,-2.5147,28.8522,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kakwende Centre Hôpital,Centre Hôpital,Publique,-2.8184,28.6864,Combination,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kalambi Centre Hôpital,Centre Hôpital,Publique,-2.9809,28.516,Geonames,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kalehe Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.092,28.9098,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kalole Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.6528,27.3929,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kalonge Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.328,28.746,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kalungu Centre Hôpital,Centre Hôpital,Publique,-1.7494,28.9956,Geonames,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kamituga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.0675,28.175,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kaniola Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.5891,28.6128,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kasenga Cepac Centre Hôpital,Centre Hôpital,Publique,-3.3548,29.1493,Geonames,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Katshungu Centre Hôpital,Centre Hôpital,Publique,-2.4475,27.3827,Google Earth,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kazimiya Centre Hôpital,Centre Hôpital,Publique,-4.571,29.1366,Geonames,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kihumba Centre Hôpital,Centre Hôpital,Publique,-2.2017,29.0445,Other,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kilembwe Hôpital Général de Référence,Hôpital Général de Référence,Publique,-4.7144,28.6827,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kiliba CEPAC Centre Hôpital,Centre Hôpital,Publique,-3.255,29.203,Other,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Kitutu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.3024,28.0993,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Lemera Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.0406,28.9911,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Lulingu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.333,27.6221,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Makobola Centre Hôpital,Centre Hôpital,Publique,-3.5477,29.1502,Geonames,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Minembwe Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.9207,28.709,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Minova Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.7164,29.0141,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Miti-Murhesa Centre Hôpital,Centre Hôpital,Publique,-2.3475,28.7827,Other,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Monvu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.1661,29.0156,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Muku Centre Hôpital,Centre Hôpital,Publique,-2.5371,28.8067,Combination,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Mulungu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.9237,27.9314,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Muzinzi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.7221,28.8308,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Mwenga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.0238,28.4431,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Nundu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.8002,29.0539,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Panzi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.5265,28.8522,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Ruzizi Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.9527,29.1173,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Sange ETAT Centre Hôpital,Centre Hôpital,Publique,-3.0339,29.1884,Geonames,Centre Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Shabunda Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.6891,27.3456,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Uvira Hôpital Général de Référence,Hôpital Général de Référence,Publique,-3.3929,29.1371,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Kivu,Walungu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-2.6189,28.6688,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Bafwagbogbo Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.6779,26.5774,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Bangabola Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.4232,18.8973,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Basali Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.7201,23.9844,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Bengamisa Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.9707,25.2086,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Bogosenubea Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.5659,19.7515,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Bokonzi Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.5586,19.0473,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Bominenge Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.1763,20.1624,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Boto Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.1027,19.017,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Budjala Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.6492,19.703,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Bulu Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.4535,20.1307,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Bwamanda Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.1725,19.2317,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Gemena Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.2507,19.7628,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Kungu Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.7803,19.2023,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Libenge Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.6505,18.6223,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Lowa Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.4004,25.8009,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Lubunga Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.4941,25.1882,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Makiso-Kisangani Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.5199,25.1862,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Mawuya Hôpital Général de Référence,Hôpital Général de Référence,Publique,3.2273,18.675,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Mbaya Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.5248,20.2263,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Ndage Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.3745,20.5219,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Opienge Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.2413,27.4206,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Tandala Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.9734,19.3501,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Tshopo Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.642,25.1886,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Wanierukula Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.2012,25.5198,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Yabaondo Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.108,23.8065,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Yahisuli Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.1073,24.0243,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Yahuma Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.1478,23.1075,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Yalimbongo Hôpital Général de Référence,Hôpital Général de Référence,Publique,2.0139,23.2518,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Sud Ubangi,Zongo Hôpital Général de Référence,Hôpital Général de Référence,Publique,4.34,18.5845,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tanganyika,Ankoro Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.7479,26.9489,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Tanganyika,Kabalo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.0478,26.9161,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Tanganyika,Kalemie Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.9453,29.194,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Tanganyika,Kansimba General Referencia,Hôpital Général de Référence,Publique,-7.3789,29.195,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tanganyika,Katuba Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.3978,28.2327,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Tanganyika,Kiyambi General Referencia,Hôpital Général de Référence,Publique,-7.3235,28.014,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tanganyika,Kongolo General Referencia,Hôpital Général de Référence,Publique,-5.3856,26.9992,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tanganyika,Manono Hôpital Général de Référence,Hôpital Général de Référence,Publique,-7.2999,27.4161,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Tanganyika,Mbulula General Referencia,Hôpital Général de Référence,Publique,-5.4333,27.4333,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tanganyika,Moba Hôpital Général de Référence,Hôpital Général de Référence,Publique,-6.5479,25.4661,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Tanganyika,Nyemba General Referencia,Hôpital Général de Référence,Publique,-5.9591,28.4268,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tanganyika,Nyunzu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-5.954,28.0159,GeoNames,Hôpital,Hospital
+Democratic Republic of the Congo,Tshopo,Bafwasende Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.0101,27.1604,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Tshopo,Banalia Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.547,25.3272,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Tshopo,Bandu Cite Hôpital,Hôpital,Publique,1.14,23.5938,Combination,Hôpital,Hospital
+Democratic Republic of the Congo,Tshopo,Basoko Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.2419,23.6155,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Tshopo,Isangi Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.7695,24.2495,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Tshopo,Lokumete Hôpital,Hôpital,Publique,1.2695,23.4995,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Tshopo,Mandima Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.6733,25.9404,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Tshopo,Mangobo Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.6361,25.1161,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Tshopo,Opala Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.505,24.2284,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Tshopo,Ubundu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.3543,25.4313,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Tshopo,Yahuma Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.1028,23.1662,Other,Hôpital,Hospital
+Democratic Republic of the Congo,Tshopo,Yahuma Hôpital Général de Référence,Hôpital Général de Référence,Publique,1.1503,23.1091,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Tshopo,Yakusu Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.5717,25.0263,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Tshopo,Yaleko Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.2175,24.3564,Geonames,Hôpital,Hospital
+Democratic Republic of the Congo,Tshuapa,Befale Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.3928,20.8411,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tshuapa,Boende Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.2857,20.8741,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tshuapa,Bokungu Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.6066,22.311,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tshuapa,Bosanga Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.9041,22.1046,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tshuapa,Djolu Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.6733,22.4491,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tshuapa,Ikela Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.0528,23.3539,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tshuapa,Lingomo Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.6866,22.0529,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tshuapa,Mompono Hôpital Général de Référence,Hôpital Général de Référence,Publique,0.1471,21.6996,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tshuapa,Mondombe Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.7754,22.7513,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tshuapa,Monkoto Hôpital Général de Référence,Hôpital Général de Référence,Publique,-1.7439,20.687,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tshuapa,Wema Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.4851,21.6294,Google Earth,Hôpital,Hospital
+Democratic Republic of the Congo,Tshuapa,Yalifafo Hôpital Général de Référence,Hôpital Général de Référence,Publique,-0.7639,22.3323,Google Earth,Hôpital,Hospital
