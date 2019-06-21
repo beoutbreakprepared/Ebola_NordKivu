@@ -12,6 +12,7 @@ plot_tt <- function(infected_sf, access_raster, bg_adm0, bg_adm1, lakes){
   bg_adm1 <- fortify(bg_adm1)
   lakes <- lakes[which(lakes$SQKM > 100),]
 
+
   df_labels <- data.table(rbind(c('Democratic Republic\nof the Congo', 27, 1.5),
                                 c('Uganda', 31, 0),
                                 c('Rwanda', 30, -2),
@@ -97,9 +98,9 @@ plot_rel_map <- function(infected_sf, access_raster, bg_adm0, lakes, co){
 
   rel_map <-
     ggplot() +
-    geom_polygon(data = as_df, aes(x=long, y = lat, group=group, colour = 'Affected health\nareas'), fill = 'transparent', show.legend = TRUE)+
     geom_raster(data = acc_df, aes(x=x, y=y, fill = quant), show.legend = TRUE) +
     geom_polygon(data = bg_adm0, aes(x=long, y=lat, group=group), fill = 'transparent', color = 'gray33', size = 1) +
+    geom_polygon(data = as_df, aes(x=long, y = lat, group=group, colour = 'Affected health\nareas'), fill = 'transparent', show.legend = TRUE)+
     geom_sf(data = lakes, fill = 'lightblue', color = 'darkblue', size = .05) +
     scale_fill_manual(name = 'Quintile of Travel Time\nto Nearest Case of Ebola',
                       values = c('#F3E51E', '#44BE70', '#218C8D', '#3A538B', '#440357'),
