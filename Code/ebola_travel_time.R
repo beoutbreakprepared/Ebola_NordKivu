@@ -29,7 +29,7 @@ health_areas <- shapefile('Data/health_areas_SR46.shp') #health area shapefile w
 uga_parish <- shapefile('Data/Uganda_parish_crop.shp')
 
 
-friction <- raster('Data/friction.tif') #friction raster is already cropped to the extent we will plot it to friction <- raster('Data/friction.tif') #getRaster(surface = "A global friction surface enumerating land-based travel speed for a nominal year 2015", extent = matrix(c(23.77, -3.37, 36.36 , 5.451)))
+friction <- raster('Data/friction.tif') #friction raster is already cropped to the extent we will plot it to friction getRaster(surface = "A global friction surface enumerating land-based travel speed for a nominal year 2015", extent = matrix(c(23.77, -3.37, 36.36 , 5.451)))
 pop_raster <- raster('Data/pop_raster.tif')
 lakes <- shapefile('Data/waterbodies_africa.shp')
 drc_hosp <- suppressMessages(read_csv('Data/DRC_hospitals.csv', locale = readr::locale(encoding = "latin1")))
