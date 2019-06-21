@@ -15,7 +15,7 @@ ________________________________________________________________________________
 Travel time from districts reporting cases to areas in and around the Kivus, including neighbouring countries
 ![alt text](Outputs/TT_map_raster.png)
 
-Travel time from districts reporting cases to locations in Rwanda, coloured by percentile rank
+Travel time from districts reporting cases to locations in Uganda, coloured by percentile rank
 ![alt text](Outputs/TT_map_Uganda.png)
 
 Travel time from districts reporting cases to locations in Rwanda, coloured by percentile rank
