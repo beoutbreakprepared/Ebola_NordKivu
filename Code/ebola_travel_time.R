@@ -18,27 +18,31 @@ library(gdistance)
 library(seegSDM)
 library(viridis)
 library(readr)
+library(dplyr)
 library(grid)
 library(gridExtra)
-source('plot_funcs.R')
+source('Code/plot_funcs.R')
+
 
 # Read in data
 health_areas <- shapefile('Data/health_areas_SR46.shp') #health area shapefile with binary present/absence variable for infection based on WHO SitRep 42 from May 21, 2019
 uga_parish <- shapefile('Data/Uganda_parish_crop.shp')
 
-friction <- raster('Data/friction.tif') #getRaster(surface = "A global friction surface enumerating land-based travel speed for a nominal year 2015", extent = matrix(c(23.77, -3.37, 36.36 , 5.451)))
+
+friction <- raster('Data/friction.tif') #friction raster is already cropped to the extent we will plot it to
 pop_raster <- raster('Data/pop_raster.tif')
 lakes <- shapefile('Data/waterbodies_africa.shp')
-drc_hosp <- read_csv('Data/DRC_hospitals.csv', locale = readr::locale(encoding = "latin1"))
-rw_hosp <- read_csv('Data/Rwanda_hospitals.csv', locale = readr::locale(encoding = "latin1"))
-ug_hosp <- read_csv('Data/Uganda_hospitals.csv', locale = readr::locale(encoding = "latin1"))
+drc_hosp <- suppressMessages(read_csv('Data/DRC_hospitals.csv', locale = readr::locale(encoding = "latin1")))
+rw_hosp <- suppressMessages(read_csv('Data/Rwanda_hospitals.csv', locale = readr::locale(encoding = "latin1")))
+ug_hosp <- suppressMessages(read_csv('Data/Uganda_hospitals.csv', locale = readr::locale(encoding = "latin1")))
 
 # Mask out lakes from friction and population rasters
-friction <- mask(friction, lakes, inverse = TRUE) 
+friction <- mask(friction, lakes, inverse = TRUE)
 pop_raster <- mask(pop_raster, lakes, inverse = TRUE)
 
 # Subset health areas to only those infected (then include Ugandan parishes containing hospitals with patients)
-ug_points <- ug_hosp[which(ug_hosp$`Facility name` == 'Bwera Hospital' | ug_hosp$`Facility name` == 'Kagando Hospital'),] #these are the hospitals reported as caring for patients with Ebola in Uganda https://www.afro.who.int/sites/default/files/2019-06/Ebola%20Virus%20Disease%20Sitrep%207%2019th%20June%202019.pdf
+ug_points <- ug_hosp[which(ug_hosp$`Facility name` == 'Bwera Hospital' | ug_hosp$`Facility name` == 'Kagando Hospital'),]
+
 coordinates(ug_points) <- ~ Longitude + Latitude
 proj4string(ug_points) <- proj4string(health_areas)
 
@@ -52,7 +56,6 @@ ha_infect <- health_areas[which(health_areas@data$sr_46_new == 1),]
 # Sample infected health areas with population bias, if pop or area too small use spsample
 poly_samp <- data.frame()
 for (i in 1:length(ha_infect)){
-  print(i)
   # reference individual polygon
   polygon <- ha_infect[i,]
 
@@ -83,12 +86,12 @@ Tr <- transition(friction, function(x) 1/mean(x), 8)
 T.GC <- geoCorrection(Tr)
 access.raster <- accCost(x = T.GC, fromCoords =  points)
 writeRaster(access.raster, filename = 'Outputs/access_raster_raw.tif')
-                 
+
 # Convert infinite values to NA and format values to show hours
 values(access.raster)[which(is.infinite(values(access.raster)))] <- NA
 values(access.raster) <- values(access.raster)/60
 writeRaster(access.raster, filename = 'Outputs/access_raster_hours.tif')
-                 
+
 # Plot access raster data
 adm0 <- getShp(ISO = c("UGA", "COD", "RWA", "BDI", "TZA"), admin_level = 'admin0')
 adm1 <- getShp(ISO = "COD", admin_level = "admin1")
