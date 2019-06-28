@@ -13,13 +13,13 @@ Case data comes from Situation Reports from the World Health Organization and Mi
 _________________________________________________________________________________________________________________________________________
 
 Travel time from districts reporting cases to areas in and around the Kivus, including neighbouring countries
-![alt text](Outputs_SR47/TT_map_raster.png)
+![alt text](Outputs_SR47/Travel_time_map.png)
 
 Travel time from districts reporting cases to locations in Uganda, coloured by percentile rank
-![alt text](Outputs_SR47/TT_map_Uganda.png)
+![alt text](Outputs_SR47/Uganda_map.png)
 
 Travel time from districts reporting cases to locations in Rwanda, coloured by percentile rank
-![alt text](Outputs_SR47/TT_map_Rwanda.png)
+![alt text](Outputs_SR47/Rwanda_map.png)
 
 Rank order and travel time proximity of Ugandan hospitals to reported cases
 ![alt text](Outputs_SR47/ug_hosp_tt_prettytab.png)
