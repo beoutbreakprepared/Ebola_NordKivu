@@ -13,21 +13,21 @@ Case data comes from Situation Reports from the World Health Organization and Mi
 _________________________________________________________________________________________________________________________________________
 
 Travel time from districts reporting cases to areas in and around the Kivus, including neighbouring countries
-![alt text](Outputs/TT_map_raster.png)
+![alt text](Outputs_SR47/TT_map_raster.png)
 
 Travel time from districts reporting cases to locations in Uganda, coloured by percentile rank
-![alt text](Outputs/TT_map_Uganda.png)
+![alt text](Outputs_SR47/TT_map_Uganda.png)
 
 Travel time from districts reporting cases to locations in Rwanda, coloured by percentile rank
-![alt text](Outputs/TT_map_Rwanda.png)
+![alt text](Outputs_SR47/TT_map_Rwanda.png)
 
 Rank order and travel time proximity of Ugandan hospitals to reported cases
-![alt text](Outputs/ug_hosp_tt_prettytab.png)
+![alt text](Outputs_SR47/ug_hosp_tt_prettytab.png)
 
 Rank order and travel time proximity of Rwandan hospitals to reported cases
-![alt text](Outputs/rw_hosp_tt_prettytab.png)
+![alt text](Outputs_SR47/rw_hosp_tt_prettytab.png)
 
 Rank order and travel time proximity of Congolese hospitals to reported cases
-![alt text](Outputs/drc_hosp_tt_prettytab.png)
+![alt text](Outputs_SR47/drc_hosp_tt_prettytab.png)
 
-Outputs were last updated on 20 June 2019 and are based upon Situation Report 46
+Outputs were last updated on 28 June 2019 and are based upon Situation Report 47
