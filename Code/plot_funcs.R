@@ -17,6 +17,7 @@ plot_tt <- function(infected_sf, access_raster, bg_adm0, bg_adm1, lakes){
                                 c('Uganda', 31, 0),
                                 c('Rwanda', 30, -2),
                                 c('Burundi', 30, -3),
+                                c('South Sudan', 31.8, 4.75),
                                 c('Tanzania', 31.3, -1.4)))
   names(df_labels) <- c('country', 'x', 'y')
   df_labels[, x := as.numeric(x)]
@@ -34,7 +35,7 @@ plot_tt <- function(infected_sf, access_raster, bg_adm0, bg_adm1, lakes){
     scale_fill_viridis(name  = 'Travel time to\nnearest case\nof Ebola (hours)\n'  ,option = 'magma', direction = -1,
                        labels = c('0', '3','6', '9', '>=12'), breaks = c(0,3,6,9,12)) +
     scale_color_manual(name = NULL, values = c('Affected health\nareas' = 'black')) +
-    coord_sf(xlim = c(25, 33), ylim = c(-3.3, 3), expand = FALSE) +
+    coord_sf(xlim = c(25, 34), ylim = c(-3.3, 7.7), expand = FALSE) +
     geom_label(data = df_labels, aes(x=x, y = y, label = country), fill='grey', alpha = 0.4, fontface = 'bold') +
     theme(axis.text = element_blank(),
           axis.title = element_blank(),
@@ -80,6 +81,21 @@ plot_rel_map <- function(infected_sf, access_raster, bg_adm0, lakes, co){
     xlims <- c(29, 35.5)
     ylims <- c(-1.8, 4.35)
 
+  } else if(co == 'SSD'){
+    df_labels <- data.table(rbind(c('Democratic Republic\nof the Congo', 28, 3.6),
+                                  c('Uganda', 32, 1.2),
+                                  c('Ethiopia', 35, 8),
+                                  c('South Sudan', 29.7, 7.8),
+                                  c('Uganda', 32.6, 3.25),
+                                  c('Sudan', 28.4, 10.85)))
+    
+    names(df_labels) <- c('country', 'x', 'y')
+    df_labels[, x := as.numeric(x)]
+    df_labels[, y := as.numeric(y)]
+    
+    xlims <- c(23, 37)
+    ylims <- c(2.9, 12.7)
+    
   }
 
   co_shp <- bg_adm0[which(bg_adm0@data$iso == co),]
