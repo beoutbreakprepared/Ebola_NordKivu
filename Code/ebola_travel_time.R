@@ -49,10 +49,10 @@ coordinates(ug_points) <- ~ Longitude + Latitude
 proj4string(ug_points) <- proj4string(health_areas)
 
 ug_infect <- raster::intersect(uga_parish, ug_points)
-ug_infect$sr_48_new <- 1
+ug_infect$sr_49_new <- 1
 
 health_areas <- raster::union(health_areas, ug_infect)
-ha_infect <- health_areas[which(health_areas@data$sr_48_new == 1),]
+ha_infect <- health_areas[which(health_areas@data$sr_49_new == 1),]
 
 
 # Sample infected health areas with population bias, if pop or area too small use spsample
@@ -87,12 +87,12 @@ points <- as.matrix(dataset@coords)
 Tr <- transition(friction, function(x) 1/mean(x), 8)
 T.GC <- geoCorrection(Tr)
 access.raster <- accCost(x = T.GC, fromCoords =  points)
-writeRaster(access.raster, filename = 'Outputs_SR48/access_raster_raw.tif')
+writeRaster(access.raster, filename = 'Outputs_SR49/access_raster_raw.tif')
 
 # Convert infinite values to NA and format values to show hours
 values(access.raster)[which(is.infinite(values(access.raster)))] <- NA
 values(access.raster) <- values(access.raster)/60
-writeRaster(access.raster, filename = 'Outputs_SR48/access_raster_hours.tif')
+writeRaster(access.raster, filename = 'Outputs_SR49/access_raster_hours.tif')
 
 # Plot access raster data
 adm0 <- getShp(ISO = c("UGA", "COD", "RWA", "BDI", "TZA", "SSD", "CAF", "ETH", "SDN"), admin_level = 'admin0')
@@ -108,10 +108,10 @@ ug_plot <- plot_rel_map(infected_sf = ha_infect, access_raster = access.raster, 
 sd_plot <- plot_rel_map(infected_sf = ha_infect, access_raster = access.raster, bg_adm0 = adm0, lakes = lakes, co = 'SSD')
 
 # To save plots use
-ggsave(trav_time_plot, filename = 'Outputs_SR48/Travel_time_map.png', width = 8, height = 8)
-ggsave(rw_plot, filename = 'Outputs_SR48/Rwanda_map.png', width = 8, height = 8)
-ggsave(ug_plot, filename = 'Outputs_SR48/Uganda_map.png', width = 8, height = 8)
-ggsave(sd_plot, filename = 'Outputs_SR48/SSudan_map.png', width = 8, height = 8)
+ggsave(trav_time_plot, filename = 'Outputs_SR49/Travel_time_map.png', width = 8, height = 8)
+ggsave(rw_plot, filename = 'Outputs_SR49/Rwanda_map.png', width = 8, height = 8)
+ggsave(ug_plot, filename = 'Outputs_SR49/Uganda_map.png', width = 8, height = 8)
+ggsave(sd_plot, filename = 'Outputs_SR49/SSudan_map.png', width = 8, height = 8)
 
 # For DRC, Rwanda and Uganda, create a list of hospital travel times
 # Rbind all country hospitals and correct names
@@ -132,11 +132,11 @@ ug_hosp_tt <- hospitals[order(Travel_Time),][Country == 'Uganda',][1:20, .(Admin
 ss_hosp_tt <- hospitals[order(Travel_Time),][Country == 'South Sudan',][1:20, .(Admin1, Name, Travel_Time, Longitude, Latitude)]
 
 # Save to csv
-write.csv(hospitals, file = file('Outputs_SR48/hospital_tt.csv', encoding = 'UTF-8'))
-write.csv(drc_hosp_tt, file = file('Outputs_SR48/drc_hosp_tt.csv', encoding = 'UTF-8'))
-write.csv(rw_hosp_tt, file = file('Outputs_SR48/rw_hosp_tt.csv', encoding = 'UTF-8'))
-write.csv(ug_hosp_tt, file = file('Outputs_SR48/ug_hosp_tt.csv', encoding = 'UTF-8'))
-write.csv(ss_hosp_tt, file = file('Outputs_SR48/ss_hosp_tt.csv', encoding = 'UTF-8'))
+write.csv(hospitals, file = file('Outputs_SR49/hospital_tt.csv', encoding = 'UTF-8'))
+write.csv(drc_hosp_tt, file = file('Outputs_SR49/drc_hosp_tt.csv', encoding = 'UTF-8'))
+write.csv(rw_hosp_tt, file = file('Outputs_SR49/rw_hosp_tt.csv', encoding = 'UTF-8'))
+write.csv(ug_hosp_tt, file = file('Outputs_SR49/ug_hosp_tt.csv', encoding = 'UTF-8'))
+write.csv(ss_hosp_tt, file = file('Outputs_SR49/ss_hosp_tt.csv', encoding = 'UTF-8'))
 
 # Save subset of columns to table output
 drc_tab <- tableGrob(drc_hosp_tt[,.(District = Admin1, Name, `Travel Time (hours)` = round(Travel_Time, 2))], rows = NULL)
@@ -144,7 +144,7 @@ rw_tab <- tableGrob(rw_hosp_tt[,.(District = Admin1, Name, `Travel Time (hours)`
 ug_tab <- tableGrob(ug_hosp_tt[,.(District = Admin1, Name, `Travel Time (hours)` = round(Travel_Time, 2))], rows = NULL)
 ss_tab <- tableGrob(ss_hosp_tt[,.(District = Admin1, Name, `Travel Time (hours)` = round(Travel_Time, 2))], rows = NULL)
 
-ggsave(drc_tab, filename = 'Outputs_SR48/drc_hosp_tt_prettytab.png')
-ggsave(rw_tab, filename = 'Outputs_SR48/rw_hosp_tt_prettytab.png')
-ggsave(ug_tab, filename = 'Outputs_SR48/ug_hosp_tt_prettytab.png')
-ggsave(ss_tab, filename = 'Outputs_SR48/ss_hosp_tt_prettytab.png')
+ggsave(drc_tab, filename = 'Outputs_SR49/drc_hosp_tt_prettytab.png')
+ggsave(rw_tab, filename = 'Outputs_SR49/rw_hosp_tt_prettytab.png')
+ggsave(ug_tab, filename = 'Outputs_SR49/ug_hosp_tt_prettytab.png')
+ggsave(ss_tab, filename = 'Outputs_SR49/ss_hosp_tt_prettytab.png')
