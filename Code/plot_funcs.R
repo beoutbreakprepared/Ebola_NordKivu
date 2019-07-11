@@ -30,7 +30,7 @@ plot_tt <- function(infected_sf, access_raster, bg_adm0, bg_adm1, lakes){
     geom_raster(data = acc_df, aes(x=x, y=y, fill = layer)) +
     geom_polygon(data = bg_adm1, aes(x = long, y = lat, group = group), fill = 'transparent', color = 'gray33', size = .15) +
     geom_polygon(data = bg_adm0, aes(x = long, y = lat, group = group), fill = 'transparent', color = 'gray47', size = .75) +
-    geom_polygon(data = as_df, aes(x=long, y = lat, group=group, colour = 'Affected health\nareas'), fill = 'transparent')+
+    geom_polygon(data = as_df, aes(x=long, y = lat, group=group, colour = 'Affected health\nareas'), fill = 'gray55', alpha = 0.3)+
     geom_point(data = ariwara, aes(x = long, y = lat), color = 'gray55', fill = 'gray55', alpha = 0.3, size = 3) +
     geom_point(data = ariwara, aes(x = long, y = lat), fill = 'transparent', stroke = 1, size = 3, color = 'black', shape = 21) +
     geom_sf(data = lakes, fill = 'lightblue', color = 'darkblue', size = .15) +
@@ -118,7 +118,7 @@ plot_rel_map <- function(infected_sf, access_raster, bg_adm0, lakes, co){
     ggplot() +
     geom_raster(data = acc_df, aes(x=x, y=y, fill = quant), show.legend = TRUE) +
     geom_polygon(data = bg_adm0, aes(x=long, y=lat, group=group), fill = 'transparent', color = 'gray33', size = 1) +
-    geom_polygon(data = as_df, aes(x=long, y = lat, group=group, colour = 'Affected health\nareas'), fill = 'transparent', show.legend = TRUE)+
+    geom_polygon(data = as_df, aes(x=long, y = lat, group=group, colour = 'Affected health\nareas'), fill = 'gray55', alpha = 0.3, show.legend = TRUE)+
     geom_point(data = ariwara, aes(x = long, y = lat), color = 'gray55', fill = 'gray55', alpha = 0.3, size = 3) +
     geom_point(data = ariwara, aes(x = long, y = lat), fill = 'transparent', stroke = 1, size = 3, color = 'black', shape = 21) +
     geom_sf(data = lakes, fill = 'lightblue', color = 'darkblue', size = .05) +
