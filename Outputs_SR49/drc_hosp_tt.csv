@@ -1,21 +1,21 @@
 "","Admin1","Name","Travel_Time","Longitude","Latitude"
-"1","Nord Kivu","Beni Hospital",0,29.4653,0.4939
-"2","Nord Kivu","Biena Hospital",0,28.8865,0.3208
-"3","Nord Kivu","Katwa Hospital",0,29.3706,0.1164
-"4","Nord Kivu","Lubero Hospital",0,29.2301,-0.1537
-"5","Nord Kivu","Mabalako Hospital",0,29.314,0.6064
-"6","Nord Kivu","Masereka Hospital",0,29.3143,-0.1392
-"7","Nord Kivu","Mutwanga Hospital",0,29.7427,0.3383
-"8","Nord Kivu","Vuhovi Hospital",0,29.4062,0.1426
+"1","Ituri","Ariwara Hospital",0,30.7018,3.1413
+"2","Ituri","Bunia Hospital",0,30.2515,1.5623
+"3","Nord Kivu","Beni Hospital",0,29.4653,0.4939
+"4","Nord Kivu","Biena Hospital",0,28.8865,0.3208
+"5","Nord Kivu","Masereka Hospital",0,29.3143,-0.1392
+"6","Nord Kivu","Mutwanga Hospital",0,29.7427,0.3383
+"7","Nord Kivu","Vuhovi Hospital",0,29.4062,0.1426
+"8","Nord Kivu","Mabalako Hospital",0.0184290671393125,29.314,0.6064
 "9","Nord Kivu","Kalunguta Hospital",0.0276435907095027,29.444,0.4881
-"10","Nord Kivu","Musienene Hospital",0.10438226766296,29.2478,0.017
-"11","Nord Kivu","Butembo Hospital",0.157212442343671,29.2227,0.118
-"12","Nord Kivu","Kyondo Hospital",0.22351913495563,29.3991,4e-04
-"13","Nord Kivu","Alimbongo Hospital",0.296358114941572,29.1831,-0.3633
-"14","Nord Kivu","Manguredjipa Hospital",0.385854511494446,28.7655,0.3534
-"15","Nord Kivu","Oicha Hospital",0.442426114312552,29.5027,0.7028
-"16","Ituri","Boga Hospital",0.729932621188925,29.9556,1.0299
-"17","Ituri","Mambasa Hospital",0.837485443939355,29.0353,1.3651
-"18","Nord Kivu","Kayna Hospital",0.992069815161812,29.166,-0.607
-"19","Ituri","Lolwa Hospital",1.32930484068452,29.4659,1.2361
-"20","Ituri","Bunia Hospital",1.41893790169555,30.2515,1.5623
+"10","Nord Kivu","Lubero Hospital",0.0392257964365357,29.2301,-0.1537
+"11","Nord Kivu","Katwa Hospital",0.0417447301983207,29.3706,0.1164
+"12","Nord Kivu","Musienene Hospital",0.10438226766296,29.2478,0.017
+"13","Nord Kivu","Butembo Hospital",0.157212442343671,29.2227,0.118
+"14","Nord Kivu","Kyondo Hospital",0.22351913495563,29.3991,4e-04
+"15","Nord Kivu","Alimbongo Hospital",0.296358114941572,29.1831,-0.3633
+"16","Nord Kivu","Manguredjipa Hospital",0.385854511494446,28.7655,0.3534
+"17","Nord Kivu","Oicha Hospital",0.442426114312552,29.5027,0.7028
+"18","Ituri","Aru Hospital",0.696112483354282,30.6124,3.0282
+"19","Ituri","Bambu Hospital",0.720702498969395,30.2446,1.8029
+"20","Ituri","Boga Hospital",0.729932621188925,29.9556,1.0299

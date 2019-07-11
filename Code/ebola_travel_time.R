@@ -39,7 +39,6 @@ ug_hosp <- suppressMessages(read_csv('Data/Uganda_hospitals.csv', locale = readr
 ss_hosp <- suppressMessages(read_csv('Data/SSudan_hospitals.csv', locale = readr::locale(encoding = "latin1")))
 
 # Mask out lakes from friction and population rasters
-friction <- mask(friction, lakes, inverse = TRUE)
 pop_raster <- mask(pop_raster, lakes, inverse = TRUE)
 
 # Subset health areas to only those infected (then include Ugandan parishes containing hospitals with patients)
@@ -51,7 +50,8 @@ proj4string(ug_points) <- proj4string(health_areas)
 ug_infect <- raster::intersect(uga_parish, ug_points)
 ug_infect$sr_49_new <- 1
 
-health_areas <- raster::union(health_areas, ug_infect)
+
+health_areas <- bind(health_areas, ug_infect)
 ha_infect <- health_areas[which(health_areas@data$sr_49_new == 1),]
 
 
@@ -76,6 +76,10 @@ for (i in 1:length(ha_infect)){
   names(pts) <- c('long', 'lat')
   poly_samp <- rbind(poly_samp, pts)
 }
+
+# For Ariwara case (not included in WHO shapefile)
+ariwara <- ariwara <- data.frame(long = 30.70048, lat = 3.136048) # coordinates extracted from Google maps
+poly_samp <- rbind(poly_samp, ariwara)
 
 # Format matrix of points to use in calculating travel time
 dataset <- poly_samp
