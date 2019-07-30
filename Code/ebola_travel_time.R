@@ -51,6 +51,8 @@ pop_raster <- mask(pop_raster, lakes, inverse = TRUE)
 # 
 # ug_infect <- raster::intersect(uga_parish, ug_points)
 # ug_infect$sr_51_new <- 1
+
+ariwara_zone$sr_51_new <- 1
 # 
 # 
 health_areas <- bind(health_areas, ariwara_zone)
