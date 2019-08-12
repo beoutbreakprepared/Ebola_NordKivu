@@ -34,7 +34,7 @@ plot_tt <- function(infected_sf, access_raster, bg_adm0, bg_adm1, lakes){
     geom_sf(data = lakes, fill = 'lightblue', color = 'darkblue', size = .15) +
     scale_fill_viridis(name  = 'Travel time to\nnearest case\nof Ebola (hours)\n'  ,option = 'magma', direction = -1,
                        labels = c('0', '3','6', '9', '>=12'), breaks = c(0,3,6,9,12)) +
-    scale_color_manual(name = NULL, values = c('Affected health\nareas' = 'black')) +
+    scale_color_manual(name = NULL, values = c('Affected health\nareas' = 'black'), guide = guide_legend(override.aes = list(fill = 'lightgrey', alpha = 0.3))) +
     coord_sf(xlim = c(25, 34), ylim = c(-3.3, 7.7), expand = FALSE) +
     geom_label(data = df_labels, aes(x=x, y = y, label = country), fill='grey', alpha = 0.4, fontface = 'bold') +
     theme(axis.text = element_blank(),
