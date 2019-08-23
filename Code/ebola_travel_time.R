@@ -28,7 +28,7 @@ source('Code/plot_funcs.R')
 health_areas <- shapefile('Data/drc_health_areas.shp') #health area shapefile with binary present/absence variable for infection based on WHO SitRep 42 from May 21, 2019
 # ariwara_zone <- shapefile('Data/ariwara.shp') #ariwara case >42 days
 # uga_parish <- shapefile('Data/Uganda_parish_crop.shp')
-
+mwenga <- shapefile('Data/mwenga.shp')
 
 # ext <- bbox(matrix(c(37.5, 23.77, 12.5,  -3.37), nrow = 2, ncol = 2, dimnames = list(c("x", "y"), c("min", "max"))))
 friction <- raster('Data/friction.tif') #friction raster is already cropped to the extent we will plot it to getRaster(surface = "A global friction surface enumerating land-based travel speed for a nominal year 2015", extent = ext)
@@ -64,13 +64,13 @@ lolwa <- gBuffer(lolwa, byid = TRUE, width = 15.30)
 lolwa_id <- sapply(slot(lolwa, "polygons"), function(x) slot(x, "ID"))
 lolwa_df <- data.frame( ID=1:length(lolwa), row.names = lolwa_id, 
                         NOMAS = 'LOLWA', POINT_X = 29.494, POINT_Y = 1.359,
-                        aug15_new = 1)
+                        aug22_new = 1)
 lolwa <- SpatialPolygonsDataFrame(lolwa, lolwa_df)
 lolwa <- spTransform(lolwa, crs(health_areas))
 
 
-health_areas <- bind(health_areas, lolwa)
-ha_infect <- health_areas[which(health_areas@data$aug15_new == 1),]
+health_areas <- bind(health_areas, lolwa, mwenga)
+ha_infect <- health_areas[which(health_areas@data$aug22_new == 1),]
 
 
 # Sample infected health areas with population bias, if pop or area too small use spsample
@@ -105,12 +105,12 @@ points <- as.matrix(dataset@coords)
 Tr <- transition(friction, function(x) 1/mean(x), 8)
 T.GC <- geoCorrection(Tr)
 access.raster <- accCost(x = T.GC, fromCoords =  points)
-writeRaster(access.raster, filename = 'Outputs_Aug15_update/access_raster_raw.tif', overwrite = TRUE)
+writeRaster(access.raster, filename = 'Outputs_Aug22_update/access_raster_raw.tif', overwrite = TRUE)
 
 # Convert infinite values to NA and format values to show hours
 values(access.raster)[which(is.infinite(values(access.raster)))] <- NA
 values(access.raster) <- values(access.raster)/60
-writeRaster(access.raster, filename = 'Outputs_Aug15_update/access_raster_hours.tif', overwrite = TRUE)
+writeRaster(access.raster, filename = 'Outputs_Aug22_update/access_raster_hours.tif', overwrite = TRUE)
 
 # Plot access raster data
 adm0 <- getShp(ISO = c("UGA", "COD", "RWA", "BDI", "TZA", "SSD", "CAF", "ETH", "SDN"), admin_level = 'admin0')
@@ -126,10 +126,10 @@ ug_plot <- plot_rel_map(infected_sf = ha_infect, access_raster = access.raster, 
 sd_plot <- plot_rel_map(infected_sf = ha_infect, access_raster = access.raster, bg_adm0 = adm0, lakes = lakes, co = 'SSD')
 
 # To save plots use
-ggsave(trav_time_plot, filename = 'Outputs_Aug15_update/Travel_time_map.png', width = 8, height = 8)
-ggsave(rw_plot, filename = 'Outputs_Aug15_update/Rwanda_map.png', width = 8, height = 8)
-ggsave(ug_plot, filename = 'Outputs_Aug15_update/Uganda_map.png', width = 8, height = 8)
-ggsave(sd_plot, filename = 'Outputs_Aug15_update/SSudan_map.png', width = 8, height = 8)
+ggsave(trav_time_plot, filename = 'Outputs_Aug22_update/Travel_time_map.png', width = 8, height = 8)
+ggsave(rw_plot, filename = 'Outputs_Aug22_update/Rwanda_map.png', width = 8, height = 8)
+ggsave(ug_plot, filename = 'Outputs_Aug22_update/Uganda_map.png', width = 8, height = 8)
+ggsave(sd_plot, filename = 'Outputs_Aug22_update/SSudan_map.png', width = 8, height = 8)
 
 # For DRC, Rwanda and Uganda, create a list of hospital travel times
 # Rbind all country hospitals and correct names
@@ -150,11 +150,11 @@ ug_hosp_tt <- hospitals[order(Travel_Time),][Country == 'Uganda',][1:20, .(Admin
 ss_hosp_tt <- hospitals[order(Travel_Time),][Country == 'South Sudan',][1:20, .(Admin1, Name, Travel_Time, Longitude, Latitude)]
 
 # Save to csv
-write.csv(hospitals, file = file('Outputs_Aug15_update/hospital_tt.csv', encoding = 'UTF-8'))
-write.csv(drc_hosp_tt, file = file('Outputs_Aug15_update/drc_hosp_tt.csv', encoding = 'UTF-8'))
-write.csv(rw_hosp_tt, file = file('Outputs_Aug15_update/rw_hosp_tt.csv', encoding = 'UTF-8'))
-write.csv(ug_hosp_tt, file = file('Outputs_Aug15_update/ug_hosp_tt.csv', encoding = 'UTF-8'))
-write.csv(ss_hosp_tt, file = file('Outputs_Aug15_update/ss_hosp_tt.csv', encoding = 'UTF-8'))
+write.csv(hospitals, file = file('Outputs_Aug22_update/hospital_tt.csv', encoding = 'UTF-8'))
+write.csv(drc_hosp_tt, file = file('Outputs_Aug22_update/drc_hosp_tt.csv', encoding = 'UTF-8'))
+write.csv(rw_hosp_tt, file = file('Outputs_Aug22_update/rw_hosp_tt.csv', encoding = 'UTF-8'))
+write.csv(ug_hosp_tt, file = file('Outputs_Aug22_update/ug_hosp_tt.csv', encoding = 'UTF-8'))
+write.csv(ss_hosp_tt, file = file('Outputs_Aug22_update/ss_hosp_tt.csv', encoding = 'UTF-8'))
 
 # Save subset of columns to table output
 drc_tab <- tableGrob(drc_hosp_tt[,.(District = Admin1, Name, `Travel Time (hours)` = round(Travel_Time, 2))], rows = NULL)
@@ -162,7 +162,7 @@ rw_tab <- tableGrob(rw_hosp_tt[,.(District = Admin1, Name, `Travel Time (hours)`
 ug_tab <- tableGrob(ug_hosp_tt[,.(District = Admin1, Name, `Travel Time (hours)` = round(Travel_Time, 2))], rows = NULL)
 ss_tab <- tableGrob(ss_hosp_tt[,.(District = Admin1, Name, `Travel Time (hours)` = round(Travel_Time, 2))], rows = NULL)
 
-ggsave(drc_tab, filename = 'Outputs_Aug15_update/drc_hosp_tt_prettytab.png', height = 8, width = 6)
-ggsave(rw_tab, filename = 'Outputs_Aug15_update/rw_hosp_tt_prettytab.png', height = 8, width = 6)
-ggsave(ug_tab, filename = 'Outputs_Aug15_update/ug_hosp_tt_prettytab.png', height = 8, width = 6)
-ggsave(ss_tab, filename = 'Outputs_Aug15_update/ss_hosp_tt_prettytab.png', height = 8, width = 6)
+ggsave(drc_tab, filename = 'Outputs_Aug22_update/drc_hosp_tt_prettytab.png', height = 8, width = 6)
+ggsave(rw_tab, filename = 'Outputs_Aug22_update/rw_hosp_tt_prettytab.png', height = 8, width = 6)
+ggsave(ug_tab, filename = 'Outputs_Aug22_update/ug_hosp_tt_prettytab.png', height = 8, width = 6)
+ggsave(ss_tab, filename = 'Outputs_Aug22_update/ss_hosp_tt_prettytab.png', height = 8, width = 6)
